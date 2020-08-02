@@ -1,0 +1,43 @@
+{
+
+   "author": {
+      "name": "Lucas Vieira",
+      "email": "lucasvtiradentes@appsuper.com.br",
+      "url": "https://github.com/lucasvtiradentes"
+   },
+   "contributors": [],
+ 
+   "name": "nodejs-es6",
+   "description": "A nodejs simple project",
+   "homepage": "https://github.com/lucasvtiradentes",  
+   "bugs": "https://github.com/lucasvtiradentes/package/issues",    
+   "version": "1.0.0",
+   "license": "MIT",
+   "keywords": [],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/lucasvtiradentes/package.git"
+   },
+ 
+   "main": "src/index.js",
+   "config": {
+      "port": "3000",
+      "custonVar": "lvt"
+    },
+   "scripts": {
+      "prestart": "node -e console.clear()",
+      "start": "node %npm_package_main%",
+ 
+      "debug": "set DEBUG=true && npm run start",
+      
+      "prebuild": "echo prebuild",
+      "build": "echo building",
+      "postbuild": "echo postbuild"
+   },
+   "dependencies": {
+      "sucrase": "^3.15.0"
+   },
+   "devDependencies": {
+   }
+ 
+ }
